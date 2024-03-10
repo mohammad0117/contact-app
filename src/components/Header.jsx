@@ -1,11 +1,13 @@
-import styles from "./Header.module.css"
+import styles from "./Header.module.css";
 function Header() {
   return (
     <div className={styles.container}>
-      <p>
+      <div>
         <h1>Contact App</h1>
-        <a href="https://botostart.ir">Botostart</a> | React.js Full Course
-      </p>
+        <p>
+          <a href="https://botostart.ir">Botostart</a> | React.js Full Course
+        </p>
+      </div>
     </div>
   );
 }
